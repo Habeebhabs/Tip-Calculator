@@ -1,0 +1,280 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: hsl(185, 41%, 84%);
+    font-family: Space Mono;
+}
+h2{
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 8px;
+    font-size: 21px;
+    color: hsl(186, 14%, 43%);
+}
+.wrapper{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.main1{
+    padding: 25px 25px 0 25px;
+    position: relative;
+}
+.main1 span{
+    color:hsl(184, 14%, 56%);
+    font-size: 17px;
+}
+#main1-first #sec1 input{
+    border: none;
+    outline: none;
+    text-align: right;
+    background: none;
+    width: 80%;
+    font-size: 22px;
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+    margin-top: 15px;
+    position: absolute;
+    right: 12%;
+    font-family: Space Mono;
+}
+#main1-first #sec1{
+    height: 60px;
+    width: 100%;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 7px;
+    margin-top: 10px;
+    border: 2px solid hsl(189, 41%, 97%);
+}
+#main1-first img{
+    position: absolute;
+    margin: 22px 0 0 15px;
+}
+#main1-first ::placeholder {
+    color: hsl(183, 100%, 15%);
+}
+#main1-first #sec1:hover{
+    border: 2px solid hsl(172, 67%, 45%);
+}
+#main1-second{
+    margin-top: 30px;
+    position: relative;
+}
+#main1-second button{
+    width: 48%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 7px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 100%);
+    font-family: Space Mono;
+    font-size: 23px;
+    font-weight: 700;
+}
+#main1-second button:hover{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+#sec-custom{
+    display:inline-flex;
+    flex-direction: column;
+    width: 48%; 
+    /* position: relative; */
+}
+#sec-custom input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 45px;
+    background-color: hsl(180, 32%, 90%);
+    border-radius: 7px;
+    margin-top: 15px;
+    text-align: center;
+    color: hsl(183, 100%, 15%);
+    font-family: Space Mono;
+    font-size: 23px;
+    font-weight: 700;
+}
+/* #sec-custom #btn{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 7px;
+    color: hsl(0, 0%, 100%);
+    font-family: Space Mono;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 1px;
+    margin-left: 3px;
+    display: none;
+} */
+#sec-custom #btn:hover{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+#sec-custom input:hover{
+    border: 2px solid hsl(172, 67%, 45%);
+}
+#main1-second ::placeholder {
+    color: hsl(184, 14%, 56%);
+}
+/* #sec-custom:hover #btn{
+    display:block;
+} */
+#main1-third{
+    margin-top: 30px;
+}
+#main1-third #sec2 input{
+    border: none;
+    outline: none;
+    text-align: right;
+    background: none;
+    width: 80%;
+    font-size: 22px;
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+    margin-top: 15px;
+    position: absolute;
+    right: 12%;
+    font-family: Space Mono;
+}
+#main1-third #sec2{
+    height: 60px;
+    width: 100%;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 7px;
+    margin-top: 10px;
+    border: 2px solid hsl(189, 41%, 97%);
+}
+#main1-third img{
+    position: absolute;
+    margin: 22px 0 0 15px;
+}
+#main1-third ::placeholder {
+    color: hsl(183, 100%, 15%);
+}
+#main1-third #sec2:hover{
+    border: 2px solid hsl(172, 67%, 45%);
+}
+.main2{
+    margin: 30px 25px 0px 25px;
+    height: 280px;
+    border-radius: 10px;
+    background-color: hsl(183, 100%, 15%);   
+}
+.main2 h4{
+    color: hsl(0, 0%, 100%);
+    font-size: 17px;
+    width: 40%;
+}
+.main2 h4 span{
+    color: hsl(184, 14%, 56%);
+}
+#main2-first,#main2-second{
+    padding: 30px 20px 0 20px;
+    display: flex;
+}
+#main2-first input{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: right;
+    color: hsl(172, 67%, 45%);
+    font-size: 35px;
+    width: 60%;
+}
+#main2-second input{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: right;
+    color: hsl(172, 67%, 45%);
+    font-size: 35px;
+    width: 60%;
+}
+#main2-first ::placeholder {
+    color: hsl(172, 67%, 45%);
+}
+#main2-second ::placeholder {
+    color: hsl(172, 67%, 45%);
+}
+.main2 button{
+    border: none;
+    outline: none;
+    background-color: hsl(172, 41%, 35%);
+    width: 75%;
+    height: 45px;
+    margin: 40px 0 0 12.5%;
+    border-radius: 4px;
+    color: hsl(183, 100%, 15%);
+    font-family: Space Mono;
+    font-weight: 700;
+    font-size: 20px;
+}
+.main2 button:hover{
+    background-color:hsl(172, 41%, 44%);
+}
+
+@media only screen and (min-width:665px){
+    .wrapper{
+        display: flex;
+        margin:40px 4% 15% 4%;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    h2{
+        letter-spacing: 10px;
+        font-size: 25px;
+    }
+    .main1 span{
+        font-size: 18px;
+    }
+    #main1-first #sec1 input{
+        font-size: 20px;
+    }
+    #main1-first #sec1{
+        margin-top: 7px;
+    }
+    #main1-second{
+        margin-top: 15px;
+    }
+    #main1-second button{
+        width: 30%;
+        font-size: 19px;
+    }
+    #sec-custom{
+        width: 30%; 
+    }
+    #sec-custom input{
+        font-size: 18px;
+    }
+    #sec-custom #btn{
+        font-size: 19px;
+    }
+    #main1-third{
+        margin-top: 15px;
+    }
+    #main1-third #sec2 input{
+        font-size: 20px;
+    }
+    #main1-third #sec2{
+        margin:7px 0px 25px 0;
+    }
+    .main2{
+        height: 355px;
+    }
+    .main2 h4{
+        width: 41%;
+    }
+    .main2 button{
+        height: 50px;
+        margin: 80px 0 0 12.5%;
+    }
+}
