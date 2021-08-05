@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" type="text/javascript"></script>
+    <script src="tiperror.js" type="text/javascript"></script>
 </head>
 <body>
     <h2>SPLI<br>TTER</h2>
@@ -22,23 +22,23 @@
                     <input type="number" placeholder="Bill Amount" oninput="common(),solve()" onfocus="this.placeholder=''" onblur="this.placeholder='Bill Amount'" id="f1">
                 </div>
             </div>
-            <div id="main1-second">
-                <span>Select Tip&nbsp%</span> <br>
-                <button onclick="five()">5%</button>
-                <button onclick="ten()">10%</button>
-                <button onclick="fifteen()">15%</button>
-                <button onclick="twentyfive()">25%</button>
-                <button onclick="fifty()">50%</button>
-                <div id="sec-custom">
-                    <input type="number" placeholder="Custom" onfocus="this.placeholder=''" onblur="this.placeholder='Custom'" id="custom" oninput="custom()">
-                </div>      
-            </div>
             <div id="main1-third">
                 <span>Number of people</span><br>
                 <div id="sec2">
                     <img src="https://img.icons8.com/material/22/000000/person-male.png"/>
                     <input type="number" placeholder="0" onfocus="this.placeholder=''" onblur="this.placeholder='0'" id="people" oninput="solve(),common2()">
                 </div>
+            </div>
+            <div id="main1-second">
+                <span>Select Tip&nbsp%</span> <br>
+                <button onclick="calculation('5')">5%</button>
+                <button onclick="calculation('10')">10%</button>
+                <button onclick="calculation('15')">15%</button>
+                <button onclick="calculation('25')">25%</button>
+                <button onclick="calculation('50')">50%</button>
+                <div id="sec-custom">
+                    <input type="number" placeholder="Custom" onfocus="this.placeholder=''" onblur="this.placeholder='Custom'" id="custom" oninput="custom()">
+                </div>      
             </div>
         </div>
         <div class="main2">
