@@ -29,11 +29,11 @@ function common2(){
         document.getElementById("sec2").style.border="2px solid #33cc33"
     }
 }
-function five(){
-    a=document.getElementById("f1").value;
-    x=document.getElementById("people").value;
-    b=a*5/100;
-    c=b/x;
+function calculation(val){
+    let a=document.getElementById("f1").value;
+    let x=document.getElementById("people").value;
+    res=a*val/100;
+    c=res/x;
     if(document.getElementById("f1").value==''){
         display1.value='';
         document.getElementById("sec1").style.border="2px solid red"
@@ -43,87 +43,7 @@ function five(){
         document.getElementById("sec2").style.border="2px solid red"
     }
     if(document.getElementById("f1").value!=''){
-    document.getElementById("display1").value="$"+c;
-    }
-}
-function ten(){
-    a=document.getElementById("f1").value;
-    x=document.getElementById("people").value;
-    b=a*10/100;
-    c=b/x;
-    if(document.getElementById("f1").value==''){
-        display1.value='';
-        document.getElementById("sec1").style.border="2px solid red"
-    }
-    if(document.getElementById("people").value==''){
-        display1.value='';
-        document.getElementById("sec2").style.border="2px solid red"
-    }
-    if(document.getElementById("f1").value==''){
-        display1.value='';
-    }
-    if(document.getElementById("f1").value!=''){
-    document.getElementById("display1").value="$"+c;
-    }
-}
-function fifteen(){
-    a=document.getElementById("f1").value;
-    x=document.getElementById("people").value;
-    b=a*15/100;
-    c=b/x;
-    if(document.getElementById("f1").value==''){
-        display1.value='';
-        document.getElementById("sec1").style.border="2px solid red"
-    }
-    if(document.getElementById("people").value==''){
-        display1.value='';
-        document.getElementById("sec2").style.border="2px solid red"
-    }
-    if(document.getElementById("f1").value==''){
-        display1.value='';
-    }
-    if(document.getElementById("f1").value!=''){
-    document.getElementById("display1").value="$"+c;
-    }
-}
-function twentyfive(){
-    a=document.getElementById("f1").value;
-    x=document.getElementById("people").value;
-    b=a*25/100;
-    c=b/x;
-    if(document.getElementById("f1").value==''){
-        display1.value='';
-        document.getElementById("sec1").style.border="2px solid red"
-    }
-    if(document.getElementById("people").value==''){
-        display1.value='';
-        document.getElementById("sec2").style.border="2px solid red"
-    }
-    if(document.getElementById("f1").value==''){
-        display1.value='';
-    }
-    if(document.getElementById("f1").value!=''){
-    document.getElementById("display1").value="$"+c;
-    }
-}
-function fifty(){
-    a=document.getElementById("f1").value;
-    x=document.getElementById("people").value;
-    b=a*50/100;
-    c=b/x;
-    if(document.getElementById("f1").value==''){
-        display1.value='';
-        document.getElementById("sec1").style.border="2px solid red"
-    }
-    if(document.getElementById("people").value==''){
-        display1.value='';
-        document.getElementById("sec2").style.border="2px solid red"
-    }
-    if(document.getElementById("f1").value==''){
-        display1.value='';
-    }
-    if(document.getElementById("f1").value!=''){
-    document.getElementById("display1").value="$"+c;
+        document.getElementById("display1").value="$"+c;
     }
 }
 function custom(){
